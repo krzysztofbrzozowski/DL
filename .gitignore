@@ -1,0 +1,47 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+venv/
+.env/
+.env*/
+.venv/
+
+# --- pyenv ---
+.python-version
+
+# --- Packaging / build ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Installer logs ---
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Unit test / coverage ---
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Don't push data ---
+data
